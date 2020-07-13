@@ -19,7 +19,7 @@ function same(arr1, arr2) {
         frequencyCount2[e] = ( frequencyCount2[e] || 0 ) + 1;
     }
     for (let key in frequencyCount1) {
-        if (! (key**2 in frequencyCount2) ){ return false };
+        if ( !(key**2 in frequencyCount2) ){ return false };
         if ( frequencyCount1[key] !== frequencyCount2[key]){ return false };
     }
     return true
