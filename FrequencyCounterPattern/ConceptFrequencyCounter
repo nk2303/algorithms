@@ -1,0 +1,2 @@
+This pattern uses objects or sets to collect values/frequencies of values.
+This can avoid nested loops for array/strings.
