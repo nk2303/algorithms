@@ -6,7 +6,7 @@ function countUniqueValues(arr){
     for (let e of arr) {
       if (!counter[e]) {
         counter[e] = 1;
-        counter['count']++ ;
+        counter['count']++;
       } else { counter[e] += 1 }
     }
     return counter['count']
@@ -16,13 +16,13 @@ function countUniqueValues(arr){
 
 function countUniqueValues(arr){
     if (arr.length === 0) {return 0}
-    let i = 0
+    let i = 0;
     for ( let j = 1; j < arr.length; j++) {
         if (arr[i] !== arr[j]) {
-            arr[i] = arr[j]
-            i++
+            arr[i] = arr[j];
+            i++;
         } else {j++}
         
     }
-    return i+1
+    return i+1;
 }
