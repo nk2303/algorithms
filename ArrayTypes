@@ -1,0 +1,29 @@
+Javscript syntax:
+1. Loop through hash:
+    const hash = {}
+    for (cons key in hash) {}
+
+2. Try to see what else can happen inside a for loop.
+
+3. % for calculating
+    10 % 3 = 1
+
+4.Sorting algo:
+    numberArray.sort((a, b) => a - b);
+
+5. Reverse an array
+    array.reverse();
+    
+6. All kind of sorting that needs to save new variable
+    let previous = nums[nums.length -1]
+    for (let i = 0; i < nums.length; i++) {
+        let current = nums[i];
+        nums[i] = previous;
+        previous = current;
+    }
+
+7. Slice returns copy
+
+8. Splice modifies original
+    arguments (at that index, number of delete elements before index, insert element)
+    ['Jan', 'March', 'April', 'June'].splice(1, 0, 'Feb');
