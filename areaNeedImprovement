@@ -3,3 +3,5 @@ Javscript syntax:
     const hash = {}
     for (cons key in hash) {}
 2. Try to see what else can happen inside a for loop.
+3. % for calculating
+    10 % 3 = 1
