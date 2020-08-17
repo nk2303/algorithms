@@ -1,4 +1,5 @@
 //Given array and a number, find that number's index in the array, return -1 if not found
+//This only work with SORTED array
 function search(array, val) {
     let min = 0;
     let max = array.length - 0;

@@ -12,7 +12,7 @@ Javscript syntax:
     numberArray.sort((a, b) => a - b);
 
 5. Reverse an array
-    array.reverse();
+    modify original: array.reverse();
     
 6. All kind of sorting that needs to save new variable
     let previous = nums[nums.length -1]
@@ -23,7 +23,21 @@ Javscript syntax:
     }
 
 7. Slice returns copy
+    slice(start,end)
+    [1,2,3,4].slice(0,3)
 
 8. Splice modifies original
-    arguments (at that index, number of delete elements before index, insert element)
+    arguments (index, number of delete elements before index, insert element)
     ['Jan', 'March', 'April', 'June'].splice(1, 0, 'Feb');
+
+9. Deconstruct syntax
+
+10. Merge two aaray:
+    array1.concat(array2)
+
+11. Find min, max:
+    Math.min(...array)
+    Math.max(...array)
+
+12. Reduce:
+    arr.reduce(( accumulator, currentValue ) => accumulator + currentValue)
