@@ -1,4 +1,15 @@
 //Compare the two elements nxt to each other and swap.
+
+const bubbleSort = (arr) => {
+    for (let i = arr.length; i > 0; i--){
+        for (let j = 0; j < i - 1; j++){
+            //SWAP
+        }
+    }
+}
+
+
+
 //2 ways to swap:
 
 const swap1 = (arr, i , j) => {
