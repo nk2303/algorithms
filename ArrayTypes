@@ -40,4 +40,4 @@ Javscript syntax:
     Math.max(...array)
 
 12. Reduce:
-    arr.reduce(( accumulator, currentValue ) => accumulator + currentValue)
+    arr.reduce(( accumulator, currentValue ) => accumulator + currentValue, optionalInitialValue)
