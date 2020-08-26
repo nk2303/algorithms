@@ -1,7 +1,6 @@
 Javscript syntax:
-1. Loop through hash:
-    const hash = {}
-    for (cons key in hash) {}
+1. Converting string to number:
+    var a = parseInt("string")
 
 2. Try to see what else can happen inside a for loop.
 
