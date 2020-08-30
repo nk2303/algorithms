@@ -1,0 +1,7 @@
+We care about worst cases.
+
+**Bubble sort, Insertion sort and Selection sort:
+These 3 do well and better when the data is small, but not when it;s big data.
+Best time complexity: Bubble sort O(n) and Insertion sort O(n)
+Worst time complexity: all 3 is O(n^2)
+Space complexity: all 3 is O(1)

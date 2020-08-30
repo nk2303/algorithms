@@ -1,4 +1,5 @@
-//Godd if your data is nearly sorted
+//Good if your data is nearly sorted, or you continuously adding new data needed to be sorted
+
 //Worst case scenario is when it's sorted in the opposite direction
 const insertionSort = (arr) => {
     for(let i = 1; i < arr.length; i++){
