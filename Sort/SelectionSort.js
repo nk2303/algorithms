@@ -1,3 +1,5 @@
+//Selection Sort is better than Bubble Sort only in the scenario where you only worry about swapping once
+
 const selectionSort = (arr) => {
     for(let i = 0; i < arr.length; i++){
         let lowest = i;
