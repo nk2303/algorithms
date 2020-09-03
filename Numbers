@@ -1,0 +1,6 @@
+- Prime number : 
+    1.can only divisible by 1 and itself and greater than 1.
+    2.the number n must not be divisible by any number > n / 2
+
+- % for calculating
+    10 % 3 = 1

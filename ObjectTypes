@@ -1,3 +1,7 @@
 1. Loop through hash:
     const hash = {}
     for (const key in hash) {}
+
+2. For not confusing syntax with array, both array and hash should use 
+    for (index in array){}
+    for (key in hash){}
