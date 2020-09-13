@@ -8,7 +8,8 @@ Javscript syntax:
     10 % 3 = 1
 
 4.Sorting: a after b if return positive
-    numberArray.sort((a, b) => a - b);
+    MODIFY ARRAY: numberArr.sort((a, b) => a - b);
+    UMODIFY: [...numberArr].sort((a, b) => a - b);
 
 5. Reverse an array
     modify original: array.reverse();
