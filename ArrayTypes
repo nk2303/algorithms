@@ -1,20 +1,20 @@
 Javscript syntax:
-1. Converting string to number:
+- Converting string to number:
     var a = parseInt("string")
 
-2. Try to see what else can happen inside a for loop.
+- Try to see what else can happen inside a for loop.
 
-3. % for calculating
+- % for calculating
     10 % 3 = 1
 
-4.Sorting: a after b if return positive
+- Sorting: a after b if return positive
     MODIFY ARRAY: numberArr.sort((a, b) => a - b);
     UMODIFY: [...numberArr].sort((a, b) => a - b);
 
-5. Reverse an array
+- Reverse an array
     modify original: array.reverse();
     
-6. All kind of sorting that needs to save new variable
+- All kind of sorting that needs to save new variable
     let previous = nums[nums.length -1]
     for (let i = 0; i < nums.length; i++) {
         let current = nums[i];
@@ -22,22 +22,22 @@ Javscript syntax:
         previous = current;
     }
 
-7. Slice returns copy
+- Slice returns copy
     slice(start,end)
     [1,2,3,4].slice(0,3)
 
-8. Splice modifies original
+- Splice modifies original
     arguments (index, number of delete elements before index, insert element)
     ['Jan', 'March', 'April', 'June'].splice(1, 0, 'Feb');
 
-9. Deconstruct syntax
+- Deconstruct syntax
 
-10. Merge two aaray:
+- Merge two aaray:
     array1.concat(array2)
 
-11. Find min, max:
+- Find min, max:
     Math.min(...array)
     Math.max(...array)
 
-12. Reduce:
+- Reduce:
     arr.reduce(( accumulator, currentValue ) => accumulator + currentValue, optionalInitialValue)
