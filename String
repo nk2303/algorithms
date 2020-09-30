@@ -1,0 +1,5 @@
+- toLowerCase
+
+- check substring :
+    string.substring(substring) // return the substring
+    string.includes(substring) // true/false
