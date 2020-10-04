@@ -1,4 +1,8 @@
 - toLowerCase
+    string.toLowerCase()
+
+- toUpperCase
+    string.toUpperCase()
 
 - check substring :
     string.substring(substring) // return the substring
