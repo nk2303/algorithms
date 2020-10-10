@@ -7,3 +7,12 @@
 - check substring :
     string.substring(substring) // return the substring
     string.includes(substring) // true/false
+
+- creat alphabet :
+    function genCharArray(charA, charZ) {
+        var a = [], i = charA.charCodeAt(0), j = charZ.charCodeAt(0);
+        for (; i <= j; ++i) {
+            a.push(String.fromCharCode(i).toUpperCase());
+        }
+        return a;
+    }
