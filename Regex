@@ -1,0 +1,2 @@
+- Test if a character is a lowercase letter or not:
+    /^[a-z]+$/.test(character)
