@@ -55,17 +55,6 @@ function minDeletions(arr) {
     
     return result
     
-    // let max = 0;
-    // for (let i = 0; i < arr.length; i++){
-    //     if( arr[i] > arr[i + 1]){
-    //         max++
-    //     }
-    // }
-    // if (max <= 1){
-    //     return 0
-    // } else {
-    //     return max - 1
-    // }
 }
     
 
