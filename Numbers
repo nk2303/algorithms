@@ -5,7 +5,8 @@
 - % for calculating
     10 % 3 = 1
 
-- Maximum number
+- Minimum number
+    Number.NEGATIVE_INFINITY
 
 - Converting string to number:
     var a = parseInt("string")
