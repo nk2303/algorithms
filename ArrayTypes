@@ -35,9 +35,5 @@ Javscript syntax:
 - Merge two aaray:
     array1.concat(array2)
 
-- Find min, max:
-    Math.min(...array)
-    Math.max(...array)
-
 - Reduce:
     arr.reduce(( accumulator, currentValue ) => accumulator + currentValue, optionalInitialValue)

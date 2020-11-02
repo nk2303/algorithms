@@ -16,3 +16,8 @@
         }
         return a;
     }
+
+- substring :
+    string.substring()
+
+- 
