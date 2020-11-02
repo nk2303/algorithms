@@ -20,4 +20,4 @@
 - substring :
     string.substring()
 
-- 
+- string.split(" ")
