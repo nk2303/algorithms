@@ -4,6 +4,8 @@
 // You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. 
 // DO NOT allocate another 2D matrix and do the rotation.
 
+// Passing Leetcode 98%
+
 var rotate = function(matrix) {
     let layer = 0;
     let len = matrix.length - 1;
@@ -27,5 +29,4 @@ var rotate = function(matrix) {
         }
         layer++;
     }
-    
 };
