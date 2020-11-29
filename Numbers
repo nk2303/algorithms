@@ -1,4 +1,5 @@
-- With number-only input, first remember that I can modify that input. 
+- With number-only input, first remember
+- Becareful of 0. It's almost always dge cases.
 
 - Prime number : 
     1.can only divisible by 1 and itself and greater than 1.
