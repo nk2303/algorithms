@@ -1,6 +1,6 @@
 //Ngan Kim Khong's algos.
 
-Process: 152. Maximum Product Subarray
+Process: 33. Search in Rotated Sorted Array
 in: https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
 
 150 most common:
