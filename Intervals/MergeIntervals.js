@@ -18,17 +18,17 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 var merge = function(intervals) {
     intervals.sort((a,b) => a[0]-b[0])
-      if (intervals.length < 2){
+    if (intervals.length < 2){
         return intervals
-      }
-      let merged = [intervals[0]];
-      for (let i = 1; i< intervals.length; i++){
-          let end = merged.length - 1
-          if (merged[end][1] >= intervals[i][0]){
+    }
+    let merged = [intervals[0]];
+    for (let i = 1; i< intervals.length; i++){
+        let end = merged.length - 1
+        if (merged[end][1] >= intervals[i][0]){
             merged[end][1] = Math.max(merged[end][1], intervals[i][1])
-          } else {
+        } else {
             merged.push(intervals[i])
-          }
-      }
-      return merged
+        }
+    }
+    return merged
 };
