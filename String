@@ -21,3 +21,7 @@
     string.substring(beginIndex, endIndex) // return substrin
 
 - string.split(" ")
+
+- convert String to Number:
+    parseInt: be careful case wehre '0x1'
+    let isnum = /^\d+$/.test(val); // check if string contains only digits
