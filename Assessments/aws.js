@@ -14,7 +14,6 @@
  * any number could be repeated any amount of time
  * [2, 4, 5, 1, 8] target is 6
  *     ^
- *if I am at 2, target - 2 O(n^2)
  * => hash = {
      target-2: index
  }
